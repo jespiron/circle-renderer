@@ -9,4 +9,4 @@ A few gotcha's that make this tricky:
 * the order in which circles are painted to the screen affects the color of their overlap
 * circles are moving on each timestep
 
-Begin with the README in `renderer/`! These files will be reorged into a book-like format later.
+Begin with the README in [`renderer/`](src/renderer/README.md)! These files will be reorged into a book-like format later.

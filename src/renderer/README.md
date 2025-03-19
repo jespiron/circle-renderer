@@ -83,7 +83,7 @@ for some other thread to paint their circle on this pixel?"
 Our threads can no longer retreat to their caves to paint circles! They must talk to each other!
 We need _interthread communication_.
 
-TODO:
+TODOs:
 * Shared Memory
     * Problem: Data Races
         * Solution 1: Switch to One Thread Per Subimage discussed above, to eliminate presence of multiple writers
@@ -91,4 +91,7 @@ TODO:
         * Solution 3: Atomics (lock-free)
 * Message Passing
 
-link each code implementation
+Link each code implementation
+
+Emphasize benchmarking + profiling
+* Lock-free programming is not necessarily more performant than locking solutions. It's the contention for locks, not prescence of locks, that is the real performance bottleneck. Since info like amount of contention isn't something we can crystal-ball by staring at our code, benchmarking is the way to decide between two solutions
