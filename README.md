@@ -1,6 +1,6 @@
 # Circle Renderer
 
-Demo code to accompany 98008 Intro to RustLang's Parallelism Lecture.
+Demo code to accompany 98008 Intro to Rust Lang's Parallelism Lecture.
 
 To state our problem, we're tasked with painting circles to a screen.
 
@@ -9,4 +9,4 @@ A few gotcha's that make this tricky:
 * the order in which circles are painted to the screen affects the color of their overlap
 * circles are moving on each timestep
 
-Read the comments in `renderer_sequential.rs`. These files will be reorged into a book-like format later.
+Begin with the README in `renderer/`! These files will be reorged into a book-like format later.
